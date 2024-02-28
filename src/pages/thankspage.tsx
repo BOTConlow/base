@@ -3,7 +3,6 @@ import Thanks from '../../public/thanks.webp'
 import { MainContainer, TextContent } from '@/styles/thankspage.styles'
 import { Oxygen } from 'next/font/google'
 import Head from 'next/head'
-import Background from '../../public/back.png'
 
 const Vietnam = Oxygen({
   subsets: ['latin'],
@@ -21,9 +20,6 @@ export default function ThanksPage() {
       </Head>
       <MainContainer
         className={Vietnam.className}
-        style={{
-          backgroundImage: `url(${Background.src})`,
-        }}
       >
         <Image alt="logo" src={Thanks} quality={100} />{' '}
         <TextContent>
