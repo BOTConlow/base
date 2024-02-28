@@ -18,9 +18,7 @@ export default function ThanksPage() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/whatsapp2.webp" />
       </Head>
-      <MainContainer
-        className={Vietnam.className}
-      >
+      <MainContainer className={Vietnam.className}>
         <Image alt="logo" src={Thanks} quality={100} />{' '}
         <TextContent>
           <h1>Parabéns Pela Compra Do App!</h1>
